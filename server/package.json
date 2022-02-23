@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon",
-    "seed": "node seeders/seeds.js"
+    "seed": "node seeders/seeds.js",
+    "build-production": "node --version"
   },
   "engines": {
     "npm": "8.1.0",
