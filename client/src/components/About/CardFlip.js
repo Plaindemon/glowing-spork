@@ -1,7 +1,7 @@
 
 import ReactCardFlip from "react-card-flip";
 import React, { useState } from "react";
-import Photo from '../../images/hex-img.svg';
+// import Photo from '../../images/hex-img.svg';
 import BenPhoto from '../../images/ben.jpg'
 
 class Card extends React.Component {
@@ -26,7 +26,7 @@ class Card extends React.Component {
          <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
          <div className="front">
            <div>
-             <img id="its-me" src={Photo} alt="me" onClick={this.handleClick}/>
+             <img id="its-me"  alt="me" onClick={this.handleClick}/>
            </div>
          </div>
          <div className="back">
@@ -55,7 +55,7 @@ class Card extends React.Component {
          <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
          <div className="front">
            <div>
-             <img id="its-me" src={Photo} alt="me" onClick={this.handleClick}/>
+             <img id="its-me"  alt="me" onClick={this.handleClick}/>
            </div>
          </div>
          <div className="back">
