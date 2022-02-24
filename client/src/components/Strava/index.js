@@ -14,12 +14,12 @@ import { Card } from 'react-bootstrap';
 function StravaActivities() {
 
     // const navigate = useNavigate();
-    const client_id = '77814';
+    const client_id = process.env.REACT_APP_STRAVA_CLIENT_ID;
     const params = useParams();
     const [loading, setLoading] = useState(true);
     const [activityData, setActivityData] = useState([]);
     console.log(window.location.search)
-    const client_secret = 'ba4cf64706994d406df016b09df6d62ee55edaef';
+    const client_secret = process.env.REACT_APP_STRAVA_CLIENT_SECRET;
     const url = new URLSearchParams(window.location.search)
     // const term = url.get('term')
 
@@ -52,7 +52,7 @@ function StravaActivities() {
     }
 
     function handleClick() {
-        window.location.href = `https://www.strava.com/oauth/authorize?client_id=${client_id}&redirect_uri=http://localhost:3000/strava&response_type=code&scope=activity:read_all`
+        window.location.href = `https://www.strava.com/oauth/authorize?client_id=${client_id}&redirect_uri=/strava&response_type=code&scope=activity:read_all`
     }
     const authLink = "https://www.strava.com/oauth/token?";
 
@@ -67,7 +67,7 @@ function StravaActivities() {
 
             },
             body: JSON.stringify({
-                client_id: '77814',
+                client_id: client_id,
                 client_secret: client_secret,
                 code: code,
                 grant_type: 'authorization_code'

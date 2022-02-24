@@ -39,7 +39,7 @@ flex-direction: column;
 align-items: center
 
 @media screen and (max-width: 760px) {
-    font-size: 15px;
+    font-size: 49px;
 }
 `
 

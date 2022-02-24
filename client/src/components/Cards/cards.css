@@ -17,6 +17,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .profileImage{
+    border: 1px solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -28,4 +29,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
 .cardDescription{
     padding: 5px;
+}
+
+.tinderCard-boxButton{
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
 }

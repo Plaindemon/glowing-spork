@@ -21,7 +21,6 @@ import Contact from '../components/Contact';
 import NoMatch from './NoMatch';
 import ReactionList from "../components/FistBumps";
 import Strava from '../components/Strava';
-import MapBox from '../pages/Map';
 import AboutUs from '../components/About';
 import Posts from '../components/Posts'
 
