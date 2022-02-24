@@ -2,7 +2,7 @@ const express = require("express");
 // import ApolloServer
 const { ApolloServer } = require("apollo-server-express");
 const { authMiddleware } = require("./utils/auth");
-const { PubSub } = require("graphql-yoga")
+
 const path = require("path");
 
 // import our typeDefs and resolvers
@@ -11,7 +11,7 @@ const db = require("./config/connection");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-const pubsub = new PubSub()
+
 const startServer = async () => {
   // create a new Apollo server and pass in our schema data
   const server = new ApolloServer({
