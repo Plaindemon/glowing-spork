@@ -1,9 +1,11 @@
 
 import ReactCardFlip from "react-card-flip";
 import React, { useState } from "react";
+
 import Photo from '../../images/peoplehike.jpg';
 import dog from '../../assets/images/pexels-rachel-claire-4992604.jpg';
 import './About.css';
+
 
 class Card extends React.Component {
   constructor() {
@@ -26,14 +28,16 @@ class Card extends React.Component {
          <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
          <div className="front">
            <div>
-             <img id="its-me" src={Photo} alt="me" onClick={this.handleClick}/>
+             <img id="its-me"  alt="me" onClick={this.handleClick}/>
            </div>
          </div>
          <div className="back">
+
            <div className="about-div">
             <p className="about-txt" onClick={this.handleClick}>
                <p>Route: a way or course taken in getting from a starting point to a destination.</p>
                <p>Root: the part of a thing attaching it to a greater or more fundamental whole; the end or base.</p>
+
             </p>
             <img src={dog} style={{width: '125vh'}} alt="puppy"></img>
             <div>
