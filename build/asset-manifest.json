@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f495cd7.css",
+    "main.js": "/static/js/main.a6720fb2.js",
+    "static/media/video1.mp4": "/static/media/video1.4cd79cc96e250884090d.mp4",
+    "static/media/ben.jpg": "/static/media/ben.1c5ec87db8f352aa6165.jpg",
+    "static/media/pexels-melvin-wahlin-2433353.jpg": "/static/media/pexels-melvin-wahlin-2433353.3a0d7914f45b84c7061b.jpg",
+    "static/media/pexels-danny-bor-9994208.jpg": "/static/media/pexels-danny-bor-9994208.5a7822bfe5011beaa658.jpg",
+    "static/media/IMG_1939.JPEG": "/static/media/IMG_1939.9ab3c06637203179ad8d.JPEG",
+    "static/media/pexels-krivec-ales-554609.jpg": "/static/media/pexels-krivec-ales-554609.ac4faa34da4fa4b523f1.jpg",
+    "static/media/pexels-rachel-claire-4992604.jpg": "/static/media/pexels-rachel-claire-4992604.b5592781690764f9634b.jpg",
+    "static/media/IMG_1.jpg": "/static/media/IMG_1.de4ae87083a46de7bc5b.jpg",
+    "static/media/pexels-julia-volk-8921113med.jpg": "/static/media/pexels-julia-volk-8921113med.ef62c80d0b174008f488.jpg",
+    "index.html": "/index.html",
+    "main.6f495cd7.css.map": "/static/css/main.6f495cd7.css.map",
+    "main.a6720fb2.js.map": "/static/js/main.a6720fb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f495cd7.css",
+    "static/js/main.a6720fb2.js"
+  ]
+}
